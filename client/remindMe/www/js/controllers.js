@@ -126,6 +126,7 @@ angular.module('remindMe.controllers', [])
 
     $scope.createReminder = function() {
       $rootScope.showLoading('Creating..');
+      console.log("Create Button Works!");
       var user = SessionFactory.getSession();
       var _r = $scope.reminder;
       var d = new Date(_r.fullDate);

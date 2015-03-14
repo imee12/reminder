@@ -1,4 +1,5 @@
-var baseUrl = 'http://20585314.ngrok.com';
+//var baseUrl = 'http://20585314.ngrok.com';
+var baseUrl = 'http://7c149e33.ngrok.com';
 
 angular.module('remindMe.services', [])
 
